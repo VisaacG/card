@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="body">
+  <main class="general-card">
+  <section class="parts-card-front">
+    <div class="backgraund-card">
+      <div class="datos-de-carta">
+      <img src="images/card-logo.svg" alt="#">
+      <p class="numero-detarjeta">0000 0000 0000 0000</p>
+      <p class="titulo-tarjeta">Jane Appleseed</p>
+      <p class="fecha-caducidad">00/00</p>
+    </div>
+    <div class="parts-card-back">
+      <p class="cvv">000</p>
+    </div>
+    </div>
+  </section>
+
+<!-- formulario de la tarjeta -->
+
+  <section class="formulario-tarjeta">
+    <form action="" class="">
+      <div class="formulario-a">
+        <label for="formulario-dueño">Cardholder Name</label>
+        <input type="text" id="dueño-form" placeholder=" e.g. Jane Appleseed" class="" >
+        <div class="form-error-dueño"></div>
+        
+        <label for="formulario-num-tarjeta">Card Number</label>
+        <input type="text" id="numero-tarjeta-form" placeholder="e.g. 1234 5678 9123 0000" class=""  minlength="" maxlength="19" size="18">
+        <div class="form-error-numero"></div>
+      </div>
+
+
+      <label for="formulario-fechas">Exp. Date (MM/YY)</label>
+      <div>
+        <input type="text" id="fecha-de-nacimiento-form" placeholder="  MM" class="mes" maxlength="2">
+        <div class="error-fecha-mm"></div>
+        <input type="text" id="fecha-de-nacimiento-form" placeholder="  YY" class="año" maxlength="4">
+        <div class="error-fecha-yy"></div>
+        <label for="formulario-cvc">CVC</label>
+        <input type="text" placeholder=" e.g. 123" class="" maxlength="3">
+        <div class="error-cvc"></div>
+      </div>
+
+      <div> 
+      </div>
+      </form>
+      <div class="button">
+      <p class="button-comfirm">Confirm</p>
+    </div>
+  </section>
+</main>
+
+  
+  
+  
+
+
+  
+
+
+  
+ 
+
+  
+
+  <!-- Completed state start -->
+
+  Thank you!
+  We've added your card details
+  Continue
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.general-card{
+    border: solid 1px red;
+    width:  373px;
+    margin: auto;
+}
+.general-card .parts-card-front{
+    background-image: url("../images/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    height: 250px ;
+    /* border-radius: 10px; */
+    position: relative;
+
+    
+}
+.general-card .formulario-tarjeta{
+    padding: 90px 24px 50px 24px;
+}
+.general-card .datos-de-carta{
+    border: solid 1px red;
+    width: 250px;
+    height: 120px;
+    color: var(--White);
+    padding: 20px;
+    background-image: url("../images/bg-card-front.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    
+}
+.general-card .parts-card-back{
+    border: solid 1px red;
+    width: 250px;
+    height: 120px;
+    color: var(--White);
+    padding: 20px;
+    background-image: url("../images/bg-card-back.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (min-width: 1320px){
+    .general-card .datos-de-carta{
+        width: 420px;
+        height: 210px;
+        padding: 30px;
+        position: absolute;
+        left: 0;
+    }
+    .general-card .parts-card-back{
+        width: 420px;
+        height: 210px;
+        padding: 30px;
+    }
+}

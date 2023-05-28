@@ -1,0 +1,39 @@
+@import "formulario-tarjet.css";
+@import "partes-tarjeta.css";
+@import "main-general.css";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(142, 123, 123);
+    font-family: var(--font);
+    font-size: 18px;
+}
+ :root{
+     --blue:hsl(249, 99%, 64%); 
+     --purple:hsl(278, 94%, 30%);
+     --red:hsl(0, 100%, 66%);
+     --White: hsl(0, 0%, 100%);
+     --Light: grayish-violet: hsl(270, 3%, 87%);
+     --Dark: grayish-violet: hsl(279, 6%, 55%);
+     --Very: dark-violet: hsl(278, 68%, 11%);
+     --font: 'Space Grotesk', sans-serif;
+ }
+ @media (min-width: 1320px) {
+    .general-card{
+        width: 1320px;
+        display: flex;
+        
+    }
+/*     .parts-card-front{
+        background-image: url("../images/bg-main-desktop.png");
+    } */
+    .general-card .parts-card-front{
+        height: 900px;
+        width: 900px;
+        background-image: url("../images/bg-main-desktop.png");
+    }
+ }
+    
+ /* - Linear gradient (active input border):  */
