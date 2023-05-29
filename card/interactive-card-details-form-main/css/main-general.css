@@ -12,9 +12,7 @@
 
     
 }
-.general-card .formulario-tarjeta{
-    padding: 90px 24px 50px 24px;
-}
+
 .general-card .datos-de-carta{
     border: solid 1px red;
     width: 250px;
@@ -25,8 +23,15 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    left: 0;
-    
+    left: 15px;
+    top: 126px;
+    z-index: 1;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.logo{
+    width: 45px;
+    margin-bottom: 43px;
 }
 .general-card .parts-card-back{
     border: solid 1px red;
@@ -38,18 +43,72 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+.backgraund-card .parts-card-back{
+    position:absolute;
+    left: 65px;
+    top: 34px;
+}
+.numero-detarjeta{
+    margin-bottom: 18px;
+    letter-spacing: 5px;
+}
+.nombre-vencimiento{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.cvv{
+    display: flex;
+    position: relative;
+    left: -18px;
+    top: 48px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 
 @media (min-width: 1320px){
+    .general-card .logo{
+        width: 80px;
+        margin-bottom: 75px;
+    }
     .general-card .datos-de-carta{
         width: 420px;
         height: 210px;
         padding: 30px;
         position: absolute;
-        left: 0;
+        left: 170px;
+        top: 140px;
+        font-size: 25px;
     }
     .general-card .parts-card-back{
         width: 420px;
         height: 210px;
         padding: 30px;
+        
     }
+    .general-card .parts-card-back{
+        position: absolute;
+        left: 230px;
+        top: 446px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-end;
+    } 
+    .cvv{
+        position: relative;
+    left: -25px;
+    top: -4px;
+    }
+    .numero-detarjeta{
+        margin-bottom: 28px;
+        letter-spacing: 8px;
+        word-spacing: 4px;
+    }
+    .general-card .nombre-vencimiento{
+        font-size: 18px;
+    }
+    
 }

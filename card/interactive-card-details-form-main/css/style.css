@@ -1,4 +1,4 @@
-@import "formulario-tarjet.css";
+@import "formulario-tarjeta.css";
 @import "partes-tarjeta.css";
 @import "main-general.css";
 *{
@@ -9,6 +9,7 @@ body{
     background-color: rgb(142, 123, 123);
     font-family: var(--font);
     font-size: 18px;
+    background-color: var(--White);
 }
  :root{
      --blue:hsl(249, 99%, 64%); 

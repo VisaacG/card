@@ -1,0 +1,41 @@
+.general-card .formulario-tarjeta{
+    padding: 90px 18px 50px 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.general-card .label{
+    display: block;
+    margin-bottom: 12px;
+    color: var(--dark-violet);
+
+}
+.general-card input{
+    width: 93%;
+    height: 35px;
+    padding-left: 10px;
+    font-family: var(--font);
+    margin-bottom: 15px;
+    font-size: 19px;
+    border-radius: 20px;
+}
+.general-card .formulario-datos{
+    display: grid;
+    grid-template-columns: 160px 100px;
+    gap: 0px 35px;
+}
+.general-card .mm-yy{
+    display: flex;
+    gap: 10px;
+}
+.button{
+    border: solid 1px red;
+}
+@media (min-width: 1320px){
+    .formulario-tarjeta{
+        margin-top: 170px;
+        width: 320px;
+        width: 347px;
+        margin-right: 110px;
+    }
+}
