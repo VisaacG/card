@@ -1,5 +1,5 @@
 .general-card{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width:  373px;
     margin: auto;
 }
@@ -14,7 +14,7 @@
 }
 
 .general-card .datos-de-carta{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 250px;
     height: 120px;
     color: var(--White);
@@ -34,7 +34,7 @@
     margin-bottom: 43px;
 }
 .general-card .parts-card-back{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 250px;
     height: 120px;
     color: var(--White);

@@ -28,9 +28,6 @@
     display: flex;
     gap: 10px;
 }
-.button{
-    border: solid 1px red;
-}
 @media (min-width: 1320px){
     .formulario-tarjeta{
         margin-top: 170px;
